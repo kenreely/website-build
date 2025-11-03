@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KESEREWear | Active Apparel</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; }
+    body { background: #fff; color: #111; }
+    header, footer { background: #000; color: #fff; padding: 20px; text-align: center; }
+    nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    .hero { background: #eee url('https://images.unsplash.com/photo-1602810313346-2f88de9d5d9e') no-repeat center center / cover; padding: 100px 20px; text-align: center; color: #fff; }
+    .hero h2 { font-size: 3rem; margin-bottom: 10px; }
+    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; padding: 40px 20px; }
+    .product { border: 1px solid #ccc; padding: 20px; text-align: center; }
+    .product img { max-width: 100%; height: auto; }
+    .product h3 { margin: 10px 0; }
+    .product p { font-size: 0.9rem; }
+    .product button { margin-top: 10px; padding: 10px 20px; background: #000; color: #fff; border: none; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>KESEREWear</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#products">Shop</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Activewear That Moves With You</h2>
+    <p>Made for men, women & youth. Built for motion. Styled to stand out.</p>
+  </section>
+
+  <section class="products" id="products">
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1600180758890-6f1923fbdffc" alt="Logo Tee">
+      <h3>KESERE Logo Tee</h3>
+      <p>Minimalist fit with maximum impact.</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1574680096145-d03f3eebfeba" alt="Hoodie">
+      <h3>KESERE Hoodie</h3>
+      <p>Warm, breathable, and boldly branded.</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1584945460010-9b56c016b1a9" alt="Joggers">
+      <h3>KESERE Joggers</h3>
+      <p>Built to move, styled to last.</p>
+      <button>Add to Cart</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 KESEREWear. All rights reserved.</p>
+  </footer>
+</body>
+</html>
